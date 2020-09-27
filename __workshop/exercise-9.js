@@ -28,6 +28,17 @@ function exercise9() {
   //
   // Write code between the lines (below)
   // -----------------------------------------------------------------
+  for (let num = 1; num <= 100; num++) {
+    if (num % 5 === 0 && num % 3 === 0) {
+      console.log('FizzBuzz');
+    } else if (num % 5 === 0) {
+      console.log('Buzz');
+    } else if (num % 3 === 0) {
+      console.log('Fizz');
+    } else {
+      console.log(num);
+    }
+  }
   // -----------------------------------------------------------------
   // Write code between the lines (above)
   //
