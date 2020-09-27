@@ -13,6 +13,11 @@ function exercise10() {
   //
   // Write code between the lines (below)
   // -----------------------------------------------------------------
+  let row = "";
+  for (let i = 1; i <= 7; i++) {
+    row += "#";
+    console.log(row);
+  } 
   // -----------------------------------------------------------------
   // Write code between the lines (above)
   //
